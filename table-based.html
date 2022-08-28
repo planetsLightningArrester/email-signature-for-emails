@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Signature</title>
+
+    <style>
+      #profile-picture {
+        margin-right: 8px;
+      }
+      #name-and-contact-div {
+        margin-left: 20px;
+      }
+      #contact-div {
+        margin-left: 20px;
+      }
+      .vertical-center {
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+      .icon {
+        margin-left: 30px;
+      }
+      /* Text */
+      h6 {
+        margin: 0px;
+        margin-left: 15px;
+
+        color: #35386c;
+        font-weight: lighter;
+        font-size: 10px;
+        font-family: 'Trebuchet MS';
+      }
+      /* Table props */
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+    </style>
+
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <!-- Profile picture -->
+          <td>
+            <img
+                id="profile-picture"
+                width="110"
+                src="profile.png"
+                alt=""
+                >
+          </td>
+
+          <!-- Name and contact -->
+          <td id="name-and-contact-div">
+
+            <!-- Name -->
+            <table>
+              <tbody>
+                <tr>
+                  <td id="name-div">
+                    <img height="40" src="./signature.png" alt="">
+                  </td>
+                </tr>
+
+                
+              </tbody>
+            </table>
+
+            <!-- Contact -->
+            <table id="contact-div">
+              <tbody>
+                <!-- Phone -->
+                <tr>
+                  <td>
+                    <table class="contact-row">
+                      <tbody>
+                        <tr>
+                          <!-- Icon -->
+                          <td class="icon vertical-center">
+                            <img width="12" src="./assets/icons/phone.png" />
+                          </td> 
+            
+                          <!-- Number -->
+                          <td id="phone-number">
+                            <h6 class="vertical-center">+123 4 456 7890</h6>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+        
+                <!-- Email -->
+                <tr>
+                  <td>
+                    <table class="contact-row">
+                      <tbody>
+                        <tr>
+                          <!-- Icon -->
+                          <td class="icon vertical-center">
+                            <a href="mailto:user@mail.com">
+                              <img height="10" src="./assets/icons/mail.png" />
+                            </a>
+                          </td>
+            
+                          <!-- Email -->
+                          <td id="mail">
+                            <h6 class="vertical-center">user@mail.com</h6>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+      
+                <!-- Linkedin -->
+                <tr>
+                  <td>
+                    <table class="contact-row">
+                      <tbody>
+                        <tr>
+                          <!-- Icon -->
+                          <td class="icon vertical-center">
+                              <a style="display: flex;" href="https://www.linkedin.com/in/linkedin">
+                                <img height="15" src="./assets/icons/linkedin.png" />
+                              </a>
+                          </td>
+                  
+                          <!-- Linkedin -->
+                          <td id="linkedin">
+                              <h6 class="vertical-center">/in/linkedin/</h6>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
